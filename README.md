@@ -1,4 +1,4 @@
-![Grvaity Logo](Images/extension/gravity-logo-nova.png)
+<img src="Images/extension/gravity-logo-nova.png" alt="Gravity Logo" width="144" height="144">
 
 # Gravity Dark Theme
 
