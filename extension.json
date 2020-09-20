@@ -1,11 +1,11 @@
 {
     "identifier": "fyonnetti.MonokaiGravity",
     "name": "Gravity",
-    "vendor": "Frank Yonnetti",
+    "organization": "Frank Yonnetti",
     "description": "Nova theme ported from Sublime Text.",
     "version": "1.0.0",
-    "categories": ["themes", "dark"],
+    "categories": ["themes"],
     "repository": "https://github.com/frankyonnetti/Gravity.novaextension",
     "bugs": "https://github.com/frankyonnetti/Gravity.novaextension/issues",
-    "license": "MIT",
+    "license": "MIT"
 }
