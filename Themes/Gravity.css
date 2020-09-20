@@ -1,0 +1,301 @@
+/**
+  * docs: https://docs.nova.app/extensions/themes
+  * color: http://colorizer.org
+  */
+
+meta {
+    -theme-interface-style: dark;
+    -theme-vibrancy: vibrant;
+    -theme-accent-color: auto;
+}
+
+/*
+ * Window styles
+ */
+meta.window {
+    background-color: hsb(0, 0%, 12%);
+    border-color: hsba(0, 0%, 100%, 0.1);
+}
+meta.titlebar {
+    background: linear-gradient(hsb(0, 0%, 26%), hsb(0, 0%, 20%));
+    border-color: hsba(0, 0%, 0%, 0.3);
+    color: hsb(0, 0%, 80%);
+}
+meta.titlebar.inactive {
+    background-color: hsb(0, 0%, 20%);
+}
+
+meta.button {
+    background: linear-gradient(hsb(0, 0%, 30%), hsb(0, 0%, 22%));
+    border: linear-gradient(hsb(0, 0%, 14%), hsb(0, 0%, 12%));
+    color: white;
+}
+meta.button.highlighted {
+    background: linear-gradient(hsb(0, 0%, 40%), hsb(0, 0%, 32%));
+    color: white;
+}
+meta.button.selected {
+    color: white;
+}
+meta.button.highlighted.selected {
+    color: white;
+}
+meta.button.disabled {
+    background: linear-gradient(hsb(0, 0%, 30%), hsb(0, 0%, 22%));
+    border: linear-gradient(hsb(0, 0%, 14%), hsb(0, 0%, 12%));
+    color: hsb(0, 0%, 40%);
+}
+
+meta.textfield {
+    background-color: hsb(0, 0%, 10%);
+    border-color: hsb(0, 0%, 8%);
+}
+
+meta.accent {
+    color: hsb(203, 49%, 83%); /* blue */
+}
+
+/*
+ * Document styles
+ */
+meta.document {
+    background-color: hsb(0, 0%, 16%);
+    border-color: hsba(0, 0%, 100%, 0.1);
+}
+
+meta.document.button {
+    background: linear-gradient(hsb(0, 0%, 26%), hsb(0, 0%, 22%));
+    border: linear-gradient(hsb(0, 0%, 12%), hsb(0, 0%, 8%));
+}
+meta.document.button.disabled {
+    background: linear-gradient(hsba(0, 0%, 26%, 0.3), hsba(0, 0%, 22%, 0.3));
+}
+meta.document.button.highlighted {
+    background: linear-gradient(hsb(0, 0%, 36%), hsb(0, 0%, 32%));
+}
+
+meta.document.textfield {
+    background-color: hsb(0, 0%, 10%);
+    border-color: hsb(0, 0%, 6%);
+}
+
+/* Text */
+meta.text {
+    color: hsb(0, 0%, 97%); /* white */
+}
+meta.text.invisible {
+    color: hsba(0, 0%, 91%, 0.35);
+}
+meta.text.selected {
+    background-color: hsb(0, 0%, 21%);
+}
+
+/* Cursor */
+meta.cursor {
+    background-color: hsb(0, 0%, 21%);
+}
+
+/* Indentation Guides */
+meta.indentguide {
+    border-color: hsb(0, 0%, 24%);
+}
+
+/* Gutter */
+meta.gutter {
+    color: hsb(0, 0%, 41%); /* gray */
+}
+meta.gutter.selected {
+    background-color: hsb(0, 0%, 30%);
+    color: hsb(0, 0%, 80%);
+}
+
+/*
+ * Syntax styles
+ */
+
+keyword {
+    color: hsb(339, 79%, 91%); /* red */
+}
+comment {
+    color: hsb(0, 0%, 41%); /* gray */
+}
+processing {
+    color: hsb(0, 0%, 41%); /* gray */
+}
+declaration {
+    color: hsb(261, 50%, 100%); /* purple */
+}
+bracket {
+    color: hsb(0, 0%, 97%); /* white */
+}
+operator {
+    color: hsb(338, 73%, 88%); /* pink */
+}
+invalid {
+    background-color: hsb(339, 79%, 91%); /* red */
+    color: hsb(0, 0%, 97%); /* white */
+}
+link {
+    color: hsb(203, 41%, 87%); /* blue2 */
+}
+
+/* Values */
+value.boolean {
+    color: hsb(261, 50%, 100%); /* purple */
+}
+value.null {
+    color: hsb(261, 50%, 100%); /* purple */
+}
+value.number {
+    color: hsb(261, 50%, 100%); /* purple */
+}
+value.entity {
+    color:hsb(261, 50%, 100%); /* purple */
+}
+value.symbol {
+    color: hsb(261, 50%, 100%); /* purple */
+}
+
+/* Identifiers */
+identifier.type {
+    color: hsb(261, 50%, 100%); /* purple */
+}
+identifier.constant {
+}
+identifier.global,
+identifier.variable {
+    color: hsb(0, 0%, 97%); /* white */
+}
+identifier.property {
+  color: hsb(80, 47%, 76%); /* green */
+}
+identifier.decorator,
+identifier.function,
+identifier.method {
+    color: hsb(203, 49%, 83%); /* blue */
+}
+identifier.key {
+    color: hsb(203, 49%, 83%); /* blue */
+}
+identifier.argument {
+    color: hsb(261, 50%, 100%); /* purple */
+}
+
+/* Strings */
+string {
+    color: hsb(37, 61%, 93%); /* yellow2 */
+}
+string.key {
+    color: hsb(339, 79%, 91%); /* red */
+}
+string-template {
+    color: hsb(37, 61%, 93%); /* yellow2 */
+}
+string-template.value {
+    color: hsb(40, 92%, 97%); /* orange */
+}
+regex {
+    color: hsb(40, 92%, 97%); /* orange */
+}
+regex.escaped {
+    color: hsb(339, 79%, 91%); /* red */
+}
+cdata {
+    color: hsb(203, 49%, 83%); /* blue */
+}
+
+/* Markup */
+markup.heading {
+    color: hsb(37, 97%, 68%); /* orange2 */
+}
+markup.line {
+    color: hsb(37, 97%, 68%); /* orange2 */
+}
+markup.bold {
+    color: hsb(203, 49%, 83%); /* blue */
+    font-weight: bold;
+}
+markup.italic {
+    color: hsb(80, 47%, 76%); /* green */
+    font-style: italic;
+}
+markup.strikethrough {
+    color: hsb(338, 73%, 88%); /* pink */
+}
+markup.list.item {
+    color: hsb(37, 97%, 68%); /* orange2 */
+}
+markup.code {
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+/* Types */
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+    font-weight: bold;
+    color: hsb(261, 50%, 100%); /* purple */
+}
+
+/* Members */
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+    color: hsb(0, 0%, 97%); /* white */
+}
+
+/* Tags */
+tag {
+    color: hsb(339, 79%, 91%); /* red */
+}
+tag.framework {
+    color: hsb(0, 0%, 97%); /* white */
+}
+tag.attribute.name {
+    color: hsb(80, 47%, 76%); /* green */
+}
+tag.attribute.value {
+    color: hsb(37, 61%, 93%); /* yellow2 */
+}
+tag.attribute.value.link {
+    color: hsb(203, 49%, 83%); /* blue */
+}
+
+/* Styles */
+style.at {
+    color: hsb(339, 79%, 91%); /* red */
+    font-weight: bold;
+}
+style.selector.element {
+    font-weight: bold;
+}
+style.selector.identifier.id {
+    color: hsb(80, 47%, 76%); /* green */
+}
+style.selector.identifier.class {
+    color: hsb(80, 47%, 76%); /* green */
+}
+style.selector.pseudoclass {
+    color: hsb(47, 42%, 100%); /* yellow */
+}
+style.selector.pseudoelement {
+    color: hsb(47, 42%, 100%); /* yellow */
+}
+style.attribute.name {
+    color: hsb(203, 49%, 83%); /* blue */
+}
+style.value.number {
+    color: hsb(261, 50%, 100%); /* purple */
+}
+style.value.color.hex {
+    color: hsb(261, 50%, 100%); /* purple */
+}
+style.value.keyword {
+    color: hsb(203, 41%, 87%); /* blue2 */
+}
+style.value.color.named {
+    color: hsb(203, 41%, 87%); /* blue2 */
+}
