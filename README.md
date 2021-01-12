@@ -3,3 +3,5 @@
 # Gravity Dark Theme
 
 Nova theme [ported](https://github.com/frankyonnetti/gravity-sublime-theme) from Sublime Text
+
+<img src="https://yonnetti-sublime.s3.amazonaws.com/gravity-nova/gravity-screenshot-nova.png" alt="Gravity Screenshot">
