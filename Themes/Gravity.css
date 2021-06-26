@@ -131,7 +131,7 @@ bracket {
   color: hsb(0, 0%, 97%); /* white */
 }
 operator {
-  color: hsb(338, 73%, 88%); /* pink */
+  color: hsb(0, 0%, 97%); /* white */
 }
 invalid {
   background-color: hsb(339, 79%, 91%); /* red */
@@ -152,7 +152,7 @@ value.number {
   color: hsb(261, 50%, 100%); /* purple */
 }
 value.entity {
-  color:hsb(261, 50%, 100%); /* purple */
+  color: hsb(40, 92%, 97%); /* orange */
 }
 value.symbol {
   color: hsb(261, 50%, 100%); /* purple */
@@ -160,7 +160,7 @@ value.symbol {
 
 /* Identifiers */
 identifier.type {
-  color: hsb(261, 50%, 100%); /* purple */
+  color: hsb(80, 47%, 76%); /* green */
 }
 identifier.constant {
 }
@@ -180,7 +180,7 @@ identifier.key {
   color: hsb(203, 49%, 83%); /* blue */
 }
 identifier.argument {
-  color: hsb(261, 50%, 100%); /* purple */
+  color: hsb(40, 92%, 97%); /* orange */
 }
 
 /* Strings */
@@ -281,10 +281,10 @@ style.selector.identifier.class {
   color: hsb(80, 47%, 76%); /* green */
 }
 style.selector.pseudoclass {
-  color: hsb(47, 42%, 100%); /* yellow */
+  color: hsb(37, 61%, 93%); /* yellow2 */
 }
 style.selector.pseudoelement {
-  color: hsb(47, 42%, 100%); /* yellow */
+  color: hsb(37, 61%, 93%); /* yellow2 */
 }
 style.attribute.name {
   color: hsb(203, 49%, 83%); /* blue */

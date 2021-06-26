@@ -1,3 +1,7 @@
+## Version 1.0.4
+
+Updated a few syntax colors.
+
 ## Version 1.0.3
 
 Fixed typo.
