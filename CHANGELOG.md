@@ -1,3 +1,12 @@
+## Version 1.0.6
+
+Fixed typo.
+
+## Version 1.0.5
+
+Updated syntax colors.
+Added an opaque (no vibrancy) version of the theme.
+
 ## Version 1.0.4
 
 Updated a few syntax colors.
